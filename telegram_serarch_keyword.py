@@ -60,8 +60,8 @@ async def main():
             final_output = result.stringify()
             json_output = json.dumps(final_output,indent=4, sort_keys=True)
             print(json_output)
-            bot = telegram.Bot(token='1887567751:AAFyxm6XI22Zhpk70G9lOr2dOurPF1ernZU')
-            bot.sendMessage(chat_id='797703540', text=final_output)
+            bot = telegram.Bot(token='XXXXXXXXXX:AAFyxm6XI22Zhpk70G9lOr2dOurPF1ernZU')
+            bot.sendMessage(chat_id='XXXXXXXXX', text=final_output)
     
         except KeyboardInterrupt:
             sys.exit(1)
